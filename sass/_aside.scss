@@ -1,0 +1,26 @@
+.aside {
+    background-color: rgba(250, 235, 215, 0.26);
+    height: 50%;
+    margin: auto 20px;
+    padding: 20px;
+
+    &__title {}
+
+    &__list {
+        // list-style-image: url("images/right-arrow.png");
+        list-style-type: disc;
+
+        &--link {
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:visited {
+                text-decoration: solid;
+            }
+        }
+    }
+
+
+}
